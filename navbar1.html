@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<style>
-  #main{
-  display: grid;
-  width:90%;
-  margin: auto;
-  grid-template-columns: repeat(2,1fr);
-  
-  height:30px;
-  justify-content: space-between;
-  align-items: center;
-  background-color:black;
-  color: white;
-  padding-left: 10px;
-  font-size: 10px;
-  border-radius: 10px;
-  }
-  #main>#sub{
-    display:grid;
-    margin: auto;
-    width: 90%; 
-    grid-template-columns: repeat(4,1fr);
-    justify-content: space-evenly;
-    
-  gap:20px;
-  
-   } 
-</style>
-<body>
-   
-  <div id="main"><div>Reebok</div>
-  <div id ="sub"><div>Men</div>
-  <div>Women</div>
-  <div>Login</div>
-  <div>Signup</div></div></div> 
+  </head>
+  <style>
+    #main {
+      display: grid;
+      width: 90%;
+      margin: auto;
+      grid-template-columns: repeat(2, 1fr);
 
-</body>
+      height: 70px;
+      justify-content: space-between;
+      align-items: center;
+      background-color: black;
+      color: white;
+      padding-left: 10px;
+      font-size: 20px;
+      border-radius: 10px;
+    }
+    #main > #sub {
+      display: grid;
+      margin: auto;
+      width: 90%;
+      grid-template-columns: repeat(4, 1fr);
+      justify-content: space-evenly;
+      gap: 20px;
+    }
+    
+  </style>
+  <body>
+    <div id="main">
+      <div>Reebok</div>
+      <div id="sub">
+        <div>Men</div>
+        <div>Women</div>
+        <div>Login</div>
+        <div><a href="signup.html">Signup</a></div>
+      </div>
+    </div>
+  </body>
 </html>
